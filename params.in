@@ -1,0 +1,7 @@
+# idir    = '/home/kowal/Research/projects/turbulence/models/mhd/bx1.0cs0.1/0256/'
+idir    = '/media/Archives/kowal/Research/projects/turbulence/bx1.0/cs1.0/0256/'
+odir    = './'
+fformat = 'fits'
+ftype   = 'p'
+fnumber = 5
+wvlen   = 12
