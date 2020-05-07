@@ -130,7 +130,7 @@ module mod_hdf5
 !
       do i = 0, nattr - 1
         call h5aopen_idx_f(gid, i, aid, err)
-        call h5aget_name_f(aid, 32, nm, err)
+        call h5aget_name_f(aid, 32_8, nm, err)
 
 
         select case(nm)
@@ -326,7 +326,7 @@ module mod_hdf5
 !
       do i = 0, nattr - 1
         call h5aopen_idx_f(gid, i, aid, err)
-        call h5aget_name_f(aid, 32, at, err)
+        call h5aget_name_f(aid, 32_8, at, err)
         select case(trim(at))
         case('pcoords')
           am(1) = 3

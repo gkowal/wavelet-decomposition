@@ -10,7 +10,7 @@ FC      = gfortran
 FFLAGS  = -O3 -march=native -fopenmp -I$(HDF5DIR)/include
 LD      = $(FC)
 LDFLAGS = $(FFLAGS)
-LIBS    =  -L$(HDF5DIR)/lib -lhdf5_fortran -lhdf5 -L$(FITSDIR)/lib -lcfitsio -lz
+LIBS    =  -L$(HDF5DIR)/lib64 -lhdf5_fortran -lhdf5 -L$(FITSDIR)/lib64 -lcfitsio -lz
 
 #-------------------------------------------------------------------------------
 
